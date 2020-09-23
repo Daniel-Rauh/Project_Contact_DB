@@ -12,10 +12,10 @@
     {{> navigation}}
     <section id="new">
         <form action="/newContact" method="POST">
-            <input type="text" name="name" id="name" placeholder="name">
-            <input type="text" name="email" id="email" placeholder="email">
-            <input type="number" name="phone" id="phone" placeholder="phone">
-            <input type="text" name="url" id="url" placeholder="url">
+            <input type="text" name="name" id="name" placeholder="name" required>
+            <input type="text" name="email" id="email" placeholder="email" required>
+            <input type="number" name="phone" id="phone" placeholder="phone" required>
+            <input type="text" name="url" id="url" placeholder="url" required>
             <input type="submit" value="submit">
         </form>
     </section>
