@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    {{> navigation}}
+    <section id="new">
+        <form action="/newContact" method="POST">
+            <input type="text" name="name" id="name" placeholder="name">
+            <input type="text" name="email" id="email" placeholder="email">
+            <input type="number" name="phone" id="phone" placeholder="phone">
+            <input type="text" name="url" id="url" placeholder="url">
+            <input type="submit" value="submit">
+        </form>
+    </section>
+</body>
+
+</html>

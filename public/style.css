@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 7vh;
+    background: #1E1F2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.bigly{
+    font-size: 2rem;
+}
+#new{
+    background: #27293D;
+    padding: 5vh 5%;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 40vh;
+    background: #1E1F2F;
+    border-radius: 10px;
+}
+input{
+    width: 90%;
+    height: 30px;
+}
+input:last-of-type{
+    border: 1px solid #FEFEFE;
+    transition: background .4s, color .2s;
+}
+input:last-of-type:hover{
+    background: #1E1F2F;
+    color: #FEFEFE;
+}
+#hero{
+    background: #27293D;
+    padding: 5vh 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    min-height: 83vh;
+}
+.contact{
+    width: 100%;
+    background: #1E1F2F;
+    border-radius: 10px;
+    transition: transform .4s;
+}
+.contact:hover{
+    transform: scale(1.05);
+}
+.contact img{
+    width: 100%;
+    object-fit: cover;
+    height: 40vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.contact h2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FEFEFE;
+    margin-bottom: 1vh;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0vh 2%;
+}
+.details h3{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #FEFEFE;
+    margin-bottom: 2vh;
+}
+#single{
+    background: #27293D;
+    padding: 5vh 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 83vh;
+}
+#single img{
+    height: 50vh;
+    object-fit: cover;
+}
+#single h1{
+    color: #FEFEFE;
+    font-size: 2rem;
+}
+#single h2{
+    font-size: 1.5rem;
+    color: #FEFEFE;
+}
